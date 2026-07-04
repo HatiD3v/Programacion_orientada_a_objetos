@@ -86,3 +86,12 @@ _precio = 50
 producto.precio = -100;
 //No se actualizará. Porque el setter lo impide.
 ```
+
+### He aprendido sobre
+
+✅ Publico: es aquel método, atributo al que se le puede acceder desde cualquier parte del repositorio es decir su scope es global
+✅ Privado: sus métodos y atributos no pueden ser accedidos globalmente, la clase es la unica que puede acceder a el directamente es decir solo se usa dentro de la propia clase esto seria un local scope y las propiedades iniciando un _ que indica que es privado
+✅ Getter: es como un método que sirve para acceder a esas propiedades privadas, este retorna el valor que tenga la propiedad privada al ser accedido mediante el nombre del get esto sirve para evitar modificaciones arbitrarias y no deseadas. en resumen permite leer un dato privado
+✅ Setter: el set es muy similar a un método este permite modificar datos privados mediante validaciones/condiciones para mantener un control y asi evitar errores.
+En resumen GET obtiene el valor del dato privado y SET configura ese dato privado de manera controlada.
+✅ Encapsulamiento: lo que entiendo de la definicion de este, es que permite ocultar datos internos, protege al objeto y mantener modificaciones controladas para los datos. En pocas palabras es como obtener lo necesario o mostrar lo necesario al cliente mientras se ocultan datos que no son relevantes conocer.
