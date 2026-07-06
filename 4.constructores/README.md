@@ -49,7 +49,7 @@ persona.edad = ...;
 
 ### Que significa this?
 
-this llama o hace referencia a los atributos del objeto en resumidas cuentas this.nombre guarda el valor que se reciba en el atributo del objeto
+this llama o hace referencia a los atributos del objeto en resumidas cuentas this.nombre guarda el valor que se recibira en el argumento al inicializar el constructor de cada instancia.
 
 ### Sintaxis abreviada en Dart
 
