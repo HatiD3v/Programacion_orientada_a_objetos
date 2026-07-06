@@ -14,7 +14,8 @@ void main() {
   final xiaomi = SmartPhone('Xiaomi', 'Gt 5 pro', 450.60);
   print({xiaomi.marca, xiaomi.modelo, xiaomi.precio});
   final cuentaBancaria = CuentaBancaria('Edwin');
-  print({cuentaBancaria.titular, cuentaBancaria.saldo = 120.99});
+  cuentaBancaria.saldo = 120.99;
+  print({cuentaBancaria.titular, cuentaBancaria.saldo});
 }
 
 //Ejercicio 1 clase libro
@@ -43,10 +44,14 @@ class CuentaBancaria {
 
   CuentaBancaria(this.titular);
 
-  double get saldo => _saldo;
+  double get saldo {
+    print(">>> Getter ejecutado");
+    return _saldo;
+  }
 
   set saldo(double value) {
     if (value > 0) {
+      print(">>> Setter ejecutado");
       _saldo = value;
     }
   }
