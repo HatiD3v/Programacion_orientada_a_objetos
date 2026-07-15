@@ -18,7 +18,7 @@ Dart tiene la capacidad de crear automaticamente un constructor solo en caso de 
 ## Constructores personalizados
 
 Dentro de las clases podemos crear constructores personalizados esto para evitar que dart cree automaticamente un constructor generico.
-En que nos puede ayudar la creacion de constructores personalizados? de que otras clases pueden heredad ciertas funciones o que deban llamar al constructor padre solo en caso de que se creen clases por herencia, tambien sirve para llamar propiedades o métodos que querramos inicializar en ese constructor personalizado.
+En que nos puede ayudar la creacion de constructores personalizados? de que otras clases pueden heredar ciertas funciones o que deban llamar al constructor padre solo en caso de que se creen clases por herencia, tambien sirve para llamar propiedades o métodos que querramos inicializar en ese constructor personalizado.
 Ejemplo
 
 ```dart
@@ -84,9 +84,11 @@ class Persona {
 Persona persona2 = Persona.soloNombre("María");
 ```
 
-✅ ¿Qué es un constructor?
-✅ ¿Cuándo se ejecuta?
-✅ ¿Para qué sirve this dentro de un constructor?
-✅ ¿Por qué es mejor crear objetos ya inicializados?
-✅ ¿Cómo se crean varios objetos usando el mismo constructor?
-✅ ¿Cómo resuelve Dart la ausencia de sobrecarga tradicional de constructores?
+### He aprendido sobre
+
+✅ ¿Qué es un constructor? un constructor es una función que inicializa el objeto, es decir instancia (crea) el objeto. cada clase tiene constructores y estos se ejecutan automaticamente al construir el objeto
+✅ ¿Cuándo se ejecuta? el constructor se ejecuta automaticamente al instanciar el objeto
+✅ ¿Para qué sirve this dentro de un constructor? this son como argumentos de una funcion, estos sirven para inicializar atributos del objeto, estos van de la mano con el constructor
+✅ ¿Por qué es mejor crear objetos ya inicializados? es una de las mejores practicas para evitar que exista un estado incompleto o nulo reduciendo los errores en el código, es similar a enviarle argumentos a una función, se suele usar con la palabra reservada final para obligar a inicializar todos los atributos o métodos.
+✅ ¿Cómo se crean varios objetos usando el mismo constructor? los objetos se crean declarandoles un nombre haciendo uso del constructor de la clase ejemplo persona = Persona(); persona2 = Persona();
+✅ ¿Cómo resuelve Dart la ausencia de sobrecarga tradicional de constructores? dart resuelve la ausencia de sobre carga con constructores con nombre
