@@ -87,8 +87,13 @@ Persona persona2 = Persona.soloNombre("María");
 ### He aprendido sobre
 
 ✅ ¿Qué es un constructor? un constructor es una función que inicializa el objeto, es decir instancia (crea) el objeto. cada clase tiene constructores y estos se ejecutan automaticamente al construir el objeto
+
 ✅ ¿Cuándo se ejecuta? el constructor se ejecuta automaticamente al instanciar el objeto
+
 ✅ ¿Para qué sirve this dentro de un constructor? this son como argumentos de una funcion, estos sirven para inicializar atributos del objeto, estos van de la mano con el constructor
+
 ✅ ¿Por qué es mejor crear objetos ya inicializados? es una de las mejores practicas para evitar que exista un estado incompleto o nulo reduciendo los errores en el código, es similar a enviarle argumentos a una función, se suele usar con la palabra reservada final para obligar a inicializar todos los atributos o métodos.
+
 ✅ ¿Cómo se crean varios objetos usando el mismo constructor? los objetos se crean declarandoles un nombre haciendo uso del constructor de la clase ejemplo persona = Persona(); persona2 = Persona();
+
 ✅ ¿Cómo resuelve Dart la ausencia de sobrecarga tradicional de constructores? dart resuelve la ausencia de sobre carga con constructores con nombre
