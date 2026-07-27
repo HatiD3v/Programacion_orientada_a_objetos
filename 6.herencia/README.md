@@ -14,7 +14,7 @@ Clase Hija
 
 Es la clase que hereda del padre, recibe lo comun y puede agregar o cambiar cosas.
 
-Estas ideas tambien pueden funcionar cuando algun objeto es muy generico como Animal, todos los animales comen, caminan,vuelan o nadan, depende del animal ya alli hacemos uso de los atributos o métodos de la clase padre a la clase hija. Es decir ya al heredar la clase padre tenemos acceso a sus atributos y metodos.
+Estas ideas tambien pueden funcionar cuando algun objeto es muy generico como Animal, todo  s los animales comen, caminan,vuelan o nadan, depende del animal ya alli hacemos uso de los atributos o métodos de la clase padre a la clase hija. Es decir ya al heredar la clase padre tenemos acceso a sus atributos y metodos.
 
 ### Reutilizacion de codigo
 
