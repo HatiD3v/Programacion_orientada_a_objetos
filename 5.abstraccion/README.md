@@ -89,8 +89,12 @@ Recordemos que una clase debe tener una sola responsabilidad, es preferible evit
 ### He aprendido sobre
 
 ✅ ¿Qué es la abstracción y en qué se diferencia del encapsulamiento? La diferencia de la abstraccion es que esta trata de ocultar datos o diseños complejos para solo mostrar lo necesario.
+
 ✅ ¿Por qué una clase debe tener una responsabilidad clara? para ser mantenible y legible evitando multiples responsabilidades que no concuerden con la clase, evitando que haga demasiadas cosas.
+
 ✅ ¿Qué ventajas tiene dividir un sistema en varias clases pequeñas? Las ventajas que observo adicional a que el código puede ser más entendible es que se puede aplicar el principio Divide y Venceras. descomponiendo problemas en pequeñas partes otorgando responsabilidades unicas a las clases haciendolas mas modulares para el momento de realizar una modificación ya saber por donde se puede iniciar y en caso de tocar una clase no interrumpir el funcionamiento ya que las demás clases pequeñas cumplirian su función.
+
 ✅ ¿Qué es una clase abstracta y cuándo tiene sentido usarla? una clase abstracta considero que tiene sentido usarla cuando algo es muy generico o abierto a pensamientos ejemplo carro, existen carros traccion delantera, trasera, 4x4, camiones, etc. En estos casos se puede aplicar la abstraccion.
 ✅ ¿Cómo funcionan las interfaces en Dart mediante implements? cada clase implicitamente puede ser una interfaz, esta funcionan de la forma de un contrato, se debe implementar obligatoria mente cada atributo y cada método que tenga la interfaz para cumplir con el contrato.
+
 ✅ ¿Por qué una clase abstracta no puede instanciarse? por que sirve como base para las demas clases, instanciarla iria contra el proposito de abstraccion (ocultar lo complejo, mostrar lo necesario) es como un plano que define que deben tener otras clases.
